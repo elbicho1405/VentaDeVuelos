@@ -1,0 +1,133 @@
+table {
+    margin-top: 3px;
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    width: 100%; /* Ancho de la tabla */
+    
+}
+
+th, td {
+    border-top: 2px solid black; /* Bordes de las celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+    color: black;
+}
+
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para las celdas de encabezado */
+}
+
+tr{
+    background-color: #f9f9f9; /* Color de fondo para las filas pares=:nth-child(even) */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el ratón sobre la fila */
+}
+
+#filtro{
+
+    margin-top: 5px;
+
+}
+
+.container{
+
+    margin-top: 120px;
+    height: 550px;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+
+
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+
+  
+  .hero .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .hero .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .hero .form-group input {
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #ffa500;
+  }
+  
+  .offers {
+    padding: 30px 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: 150px;
+  }
+  
+  .offers h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .offer {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .offer h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+ 
