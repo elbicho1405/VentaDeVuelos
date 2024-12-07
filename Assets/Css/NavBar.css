@@ -1,20 +1,20 @@
-.arrow {
+/* .arrow {
     display: inline-block;
     transition: transform 0.3s ease; /* Suaviza la rotación */
-    font-size: 0.75rem;
-  }
+    /* font-size: 0.75rem; */
+  /* } */
   
-  .nav-item.dropdown:hover .arrow {
+  /* .nav-item.dropdown:hover .arrow {
     transform: rotate(180deg); /* Rota la flecha 180 grados al hacer hover */
-  }
+  /* } */ 
   
-  .dropdown-menu {
+  /* .dropdown-menu {
     display: none; /* Oculto por defecto */
-  }
+  /* } */ 
   
-  .nav-item.dropdown:hover .dropdown-menu {
+  /* .nav-item.dropdown:hover .dropdown-menu {
     display: block; /* Muestra el menú al hacer hover */
-  }
+  /* } */ 
 
   header {
     display: flex;

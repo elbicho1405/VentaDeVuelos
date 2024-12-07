@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolineas Gourmand</title>
+    <link rel="shortcut icon" type="image/jpg" href="../Img/Logo.jpg">
+    <link rel="stylesheet" href="../Css/NavBar.css">
+    <link rel="stylesheet" href="../Css/Fondo.css">
+    <link rel="stylesheet" href="../Css/DatosReserva.css">
+   
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="../Img/Logo.jpg" alt="">
+          <h1 class="Titulo">Aerolineas Gourmand</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../../Index.html">Inicio</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Ayuda</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <div class="container">
+        <h1>Consulta de Reservas</h1>
+        <form id="consultaForm">
+            <label for="dni">Ingrese su DNI:</label>
+            <input type="number" id="dni" required placeholder="Ejemplo: 12345678">
+            <button type="submit">Consultar</button>
+        </form>
+
+        <div id="resultado" class="resultado">
+            
+        </div>
+    </div>
+
+    <script type="module" src="../Js/EstadoReserva.js"></script>
+    <script type="module" src="../Js/Conexion.js"></script>
+</body>
+</html>

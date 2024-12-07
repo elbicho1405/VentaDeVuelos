@@ -2,6 +2,7 @@ table {
     margin-top: 3px;
     border-collapse: collapse; /* Combina los bordes de las celdas */
     width: 100%; /* Ancho de la tabla */
+    height: 360px;
     
 }
 
@@ -25,6 +26,8 @@ tr:hover {
     background-color: #e0e0e0; /* Color de fondo al pasar el ratón sobre la fila */
 }
 
+
+
 #filtro{
 
     margin-top: 5px;
@@ -34,7 +37,7 @@ tr:hover {
 .container{
 
     margin-top: 120px;
-    height: 550px;
+    height: 605px;
     background-color: rgb(0, 0, 0, 0.5);
     
 
@@ -130,4 +133,10 @@ tr:hover {
     margin-top: 20px;
   }
 
- 
+ .BtnComprar{
+
+  margin-top: 5px;
+
+
+ }
+
